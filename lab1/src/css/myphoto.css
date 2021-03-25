@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #000000;
+  background-color: #f6f6f6;
+}
+
+header {
+  color: #000000;
+  background-color: #000000;
+  height: 60px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-top: -7px;
+  border-radius: 5px;
+}
+
+nav {
+  float: left;
+  margin-left: 30px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration:none;
+}
+
+h3 a:hover{
+  color: #87bff2;
+}
+
+h3 a{
+  padding: 15px;
+}
+
+.div-left{
+  float: right;
+}
+
+.div-right {
+  color: #FFFFFF;
+  float: right;
+}
+
+#main {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+#main li {
+  cursor: pointer;
+}
+
+.drop {
+  display: block;
+  overflow: hidden;
+  list-style: none;
+  clear: both;
+  margin-right: 40px;
+}
+
+.drop div {
+  width: 100px;
+  position: relative;
+  transform: translate(0, -100%);
+  transition: all 0.5s 0.1s;
+  /* z-index: 999; */
+}
+
+.drop div li {
+  padding: 0;
+  width: 100%;
+  background: #000000 !important;
+}
+
+#main li:hover ul div {
+  transform: translate(0, 0);
+}
+
+li a {
+  padding: 10px;
+  font-size: 15px;
+}
+
+footer{
+  background-color: #FFFFFF;
+  height: 40px;
+  width: 100%;
+}
+
+.copyright {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.footer-a {
+  color: #000000;
+}
+
+.main-bottom {
+  width: 100%;
+  height: 1150px;
+}
+
+.search-area {
+  width: 80%;
+  height: 250px;
+  background: #CECBC3;
+  margin: 0px 10%;
+  border-radius: 5px;
+}
+
+.search-title {
+  margin: auto;
+  width: 100%;
+  background: #B6BBC0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.filter {
+  width: 80%;
+  background: #B6BBC0;
+  margin: 0px 10%;
+  border-radius: 5px;
+}
+
+.filter-show {
+  width: 100%;
+  height: 1100px;
+  font-size: 25px;
+  background: #CECBC3;
+  overflow: hidden;
+}
+
+.list-show {
+  width: 100%;
+  height: 210px;
+  font-size: 25px;
+  background: #DBE1DA;
+}
+
+.list-image {
+  float: left;
+  margin: 20px;
+  width: 170px;
+  height: 170px;
+  border-radius: 15px;
+  background: url(../../img/travel-images/normal/small/222222.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.list-name {
+  font-size: 25px;
+}
+
+.list-info {
+  width: 75%;
+  height: 73px;
+  margin: 10px 25px;
+  font-size: 17px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.pages {
+  width: 96%;
+  text-align: center;
+}
+
+.page {
+  color: #2E7BAD;
+}
+
+.modify {
+  width: 100px;
+  border-radius: 15px;
+}
