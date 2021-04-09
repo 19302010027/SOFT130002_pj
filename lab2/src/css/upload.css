@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #000000;
+  background-color: #f6f6f6;
+}
+
+header {
+  color: #000000;
+  background-color: #000000;
+  height: 60px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-top: -7px;
+  border-radius: 5px;
+}
+
+nav {
+  float: left;
+  margin-left: 30px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration:none;
+}
+
+h3 a:hover{
+  color: #87bff2;
+}
+
+h3 a{
+  padding: 15px;
+}
+
+.div-left{
+  float: right;
+}
+
+.div-right {
+  color: #FFFFFF;
+  float: right;
+}
+
+#main {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+#main li {
+  cursor: pointer;
+}
+
+.drop {
+  display: block;
+  overflow: hidden;
+  list-style: none;
+  clear: both;
+  margin-right: 40px;
+}
+
+.drop div {
+  width: 100px;
+  position: relative;
+  transform: translate(0, -100%);
+  transition: all 0.5s 0.1s;
+  /* z-index: 999; */
+}
+
+.drop div li {
+  padding: 0;
+  width: 100%;
+  background: #000000 !important;
+}
+
+#main li:hover ul div {
+  transform: translate(0, 0);
+}
+
+li a {
+  padding: 10px;
+  font-size: 15px;
+}
+
+footer{
+  background-color: #FFFFFF;
+  height: 40px;
+  width: 100%;
+}
+
+.copyright {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.footer-a {
+  color: #000000;
+}
+
+#reload {
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+  cursor: pointer;
+}
+
+#totop {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+}
+
+.main-top {
+  width: 100%;
+}
+
+.search-area {
+  width: 80%;
+  height: 950px;
+  background: #CECBC3;
+  margin: 0px 10%;
+  border-radius: 5px;
+}
+
+.search-title {
+  margin: auto;
+  width: 100%;
+  background: #B6BBC0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.file-img {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.file-block {
+  width: 50%;
+  margin: 20px 25%;
+  height: 300px;
+}
+
+.img-block {
+  width: 50%;
+  margin: 20px;
+  height: 300px;
+}
+
+#img_file {
+  border: 1px solid blue;
+}
+
+.search-line {
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.search-text {
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.search-textarea {
+  width: 95%;
+  height: 90px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#search-submit {
+  width: 100px;
+  height: 26px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
