@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> search  </title>
+    <link rel="stylesheet" type="text/css" href="../css/myStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/search.css">
+    <script type="text/javascript" src="../js/myJavascript.js"></script>
+</head>
+<body onload="goSearch();trackShow()">
+<div id="container">
+    <div class="header">
+        <a href="collection.html">
+            <img src="../image/user.png" id="myAccount">
+        </a>
+        <h1 class="title">
+            Art Store
+        </h1>
+        <p class="slogan">
+            Where you find GENIUS and EXTROORDINARY
+        </p>
+    </div>
+    <div>
+        <ul>
+            <li><a href="signup.html" class="navigation">
+                SignUp
+            </a></li>
+            <li><a href="signin.html" class="navigation">
+                SignLn
+            </a></li>
+            <li><a href="search.html" class="navigation">
+                Search
+            </a></li>
+            <li><a class="navigation" href="index.html">
+                Home
+            </a></li>
+        </ul>
+    </div>
+    <div id="track" class="track"></div>
+    <div class="search">
+        <form style="text-align: right">
+            <input type="text" name="username" placeholder="your favourite art work">
+            <span id="arrow">
+                <a href="search.html">
+                    <img src="../image/arrow.png" width="24", height="24">
+                </a>
+            </span>
+        </form>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <h1 class="name"><b>Décoration for the Yellow House</b></h1>
+                <h2 class="author">Vincent Van Gogh</h2>
+                <a href="detail.html">
+                    <img src="../image/6.jpg" class="picture">
+                </a>
+                <p class="description">
+                    The Decoration for the Yellow House was the main project
+                    Vincent van Gogh focused on in Arles, from August 1888
+                    until his breakdown the day before Christmas. This Decoration
+                    had no pre-defined form or size; the central idea of the
+                    Decoration grew step by step, with the progress of his work.
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h1 class="name"><b>Soft Construction with Boiled Beans</b></h1>
+                <h2 class="author">Salvidor Dali</h2>
+                <a href="detail.html">
+                    <img src="../image/7.jpg" class="picture">
+                </a>
+                <p class="description">
+                    The painting resides at the Philadelphia Museum of Art.
+                    The painting, which was painted in 1936, is used to show
+                    the struggle of war that can sometimes be both self-fulfilling
+                    and self-mutilating at the same time. Despite his support
+                    of General Franco, Dalí was openly against war, and used
+                    this painting to show it. <br>
+                </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h1 class="name"><b>Card Players</b></h1>
+                <h2 class="author">Paul Cezanne</h2>
+                <a href="detail.html">
+                    <img src="../image/8.jpg" class="picture">
+                </a>
+                <p class="description">
+                    The Card Players is a series of oil paintings from the
+                    French Post-Impressionist artist Paul Cézanne. Painted
+                    during Cézanne's final period in the early 1890s, there
+                    are five paintings in the series. The versions vary in
+                    size and in the number of players depicted. <br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <a href="#"><<</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">>></a>
+    </div>
+</div>
+
+<div id="footer">
+    @ArtStore.Copyright © SOFT130002 lab2. All Rights Reserved. 备案号：19302010027@fudan.edu.cn
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Sign In
+    </title>
+    <link rel="stylesheet" type="text/css" href="../css/myStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/user.css">
+    <script type="text/javascript" src="../js/signin.js"></script>
+    <script type="text/javascript" src="../js/myJavascript.js"></script>
+</head>
+<body onload="goLogin();trackShow()">
+<div id="container">
+    <div class="header">
+        <a href="collection.html">
+            <img src="../image/user.png" id="myAccount">
+        </a>
+        <h1 class="title">
+            Art Store
+        </h1>
+        <p class="slogan">
+            Where you find GENIUS and EXTROORDINARY
+        </p>
+    </div>
+    <div>
+        <ul>
+            <li><a href="signup.html" class="navigation">
+                SignUp
+            </a></li>
+            <li><a href="signin.html" class="navigation">
+                SignLn
+            </a></li>
+            <li><a href="search.html" class="navigation">
+                Search
+            </a></li>
+            <li><a class="navigation" href="index.html">
+                Home
+            </a></li>
+        </ul>
+    </div>
+
+    <div id="track" class="track"></div>
+
+    <div class="user">
+        <form style="text-align: center">
+            <label class="label">
+                Username
+            </label>
+            <input type="text" name="username" id="username" placeholder="Your name...">
+            <br>
+            <label class="label">
+                Password
+            </label>
+            <input type="password" name="password" id="password" placeholder="Your password...">
+            <br>
+            <input type="submit" value="SIGN IN" class="button" onclick="loginConfirm()">
+            <br>
+            <a href="signup.html" class="change">
+                <b>CREAT ACCOUNT</b>
+            </a>
+        </form>
+    </div>
+</div>
+
+<div id="footer">
+    @ArtStore.Copyright © SOFT130002 lab2. All Rights Reserved. 备案号：19302010027@fudan.edu.cn
+</div>
+</body>
+</html>

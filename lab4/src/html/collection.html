@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>collection </title>
+    <link rel="stylesheet" type="text/css" href="../css/myStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/collection.css">
+    <script type="text/javascript" src="../js/collection.js"></script>
+    <script type="text/javascript" src="../js/myJavascript.js"></script>
+</head>
+<body onload="trackShow()">
+<div id="container">
+    <div class="header">
+        <a href="collection.html">
+            <img src="../image/user.png" id="myAccount">
+        </a>
+        <h1 class="title">
+            Art Store
+        </h1>
+        <p class="slogan">
+            Where you find GENIUS and EXTROORDINARY
+        </p>
+    </div>
+    <div>
+        <ul>
+            <li><a href="signup.html" class="navigation">
+                SignUp
+            </a></li>
+            <li><a href="signin.html" class="navigation">
+                SignLn
+            </a></li>
+            <li><a href="search.html" class="navigation">
+                Search
+            </a></li>
+            <li><a class="navigation" href="index.html">
+                Home
+            </a></li>
+        </ul>
+    </div>
+    <div id="track" class="track"></div>
+    <!------------------------------------------------------------------------------------------>
+    <input type="text" name="username" placeholder="search...">
+    <hr>
+    <div class="row">
+        <div class="leftColumn">
+            <div class="card" id="card1">
+                <h1 class="picTitle">Where Do We Come From? What Are We? Where Are We Going?</h1>
+                <h2 class="picAuthor">Paul Gaugin</h2>
+                <img src="../image/6.jpg" class="Image">
+                <p class="picDis">This is Paul Gaugin’s most famous painting, and he considered it his masterpiece, and the culmination of his thoughts.</p>
+                <button class="deleteButton" id="delete1" type="button" onclick="deleteCollection(this)">
+                    DELETE IT
+                </button>
+            </div>
+            <div class="card" id="card2">
+                <h1 class="picTitle">Wheatfield with Crows</h1>
+                <h2 class="picAuthor">Vincent Van Gogh</h2>
+                <img src="../image/7.jpg" class="Image">
+                <p class="picDis">Wheatfield with Crows is a July 1890 painting by Vincent van Gogh. It is commonly but mistakenly stated that this was Van Gogh's last painting.</p>
+                <button class="deleteButton" id="delete2" type="button" onclick="deleteCollection(this)">
+                    DELETE IT
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="footer">
+    @ArtStore.Copyright © SOFT130002 lab2. All Rights Reserved. 备案号：19302010027@fudan.edu.cn
+</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+    <title>
+        detail
+    </title>
+    <link rel="stylesheet" type="text/css" href="../css/detail.css">
+    <link rel="stylesheet" type="text/css" href="../css/myStyle.css">
+    <script type="text/javascript" src="../js/detail.js"></script>
+    <script type="text/javascript" src="../js/myJavascript.js"></script>
+</head>
+
+<body onload="trackShow()">
+<div id="container">
+    <div class="header">
+        <a href="collection.html">
+            <img src="../image/user.png" id="myAccount">
+        </a>
+        <h1 class="title">
+            Art Store
+        </h1>
+        <p class="slogan">
+            Where you find GENIUS and EXTROORDINARY
+        </p>
+    </div>
+    <div>
+        <ul>
+            <li><a href="signup.html" class="navigation">
+                SignUp
+            </a></li>
+            <li><a href="signin.html" class="navigation">
+                SignLn
+            </a></li>
+            <li><a href="search.html" class="navigation">
+                Search
+            </a></li>
+            <li><a class="navigation" href="index.html">
+                Home
+            </a></li>
+        </ul>
+    </div>
+    <div id="track" class="track"></div>
+
+    <div class="detail">
+        <b>Décoration for the Yellow House</b><br>
+        <a href="search.html" class="author">
+            Vincent Van Gogh
+        </a>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="column">
+            <img id="picture" src="../image/61.jpg">
+        </div>
+
+        <div class="column" id="description">
+            Painted 1888<br>
+            Middle Ages<br>
+            Post-Impressionism<br>
+            Dimensions: 60.3 cm × 46.6 cm<br>
+            <hr />
+            Price: 100, 000 USD<br>
+            <button class="button" onclick="addWishList()">
+                ADD TO WISH LIST
+            </button>
+            <br />
+            <a class="more" href="index.html">
+                <b>SEE MORE GOODS</b>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    @ArtStore.Copyright © SOFT130002 lab2. All Rights Reserved. 备案号：19302010027@fudan.edu.cn
+</div>
+</body>
+</html>
